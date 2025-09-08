@@ -20,7 +20,7 @@ A fun and interactive **Truth and Dare** game app built with React. Play with fr
 - **React**    
 - **Tailwind Css**
 - **API:** [Truth and Dare API](https://docs.truthordarebot.xyz/api-docs)
-- **Deployment:** [Netlify](https://movie-hub-webapp.netlify.app/)
+- **Deployment:** [Netlify](https://truth-and-dare-web-app.netlify.app)
 
 ---
 
