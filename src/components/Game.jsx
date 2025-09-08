@@ -100,7 +100,7 @@ const Game = () => {
 
   return (
     <div className="min-h-screen px-4 flex flex-col items-center justify-center text-white">
-      <h1 className="text-6xl md:text-8xl font-bold mb-2 bg-gradient-to-r from-teal-50 to-teal-100 bg-clip-text text-transparent">
+      <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold mb-2 bg-gradient-to-r from-teal-50 to-teal-100 bg-clip-text text-transparent">
         Truth or Dare
       </h1>
       <p className="text-xl mb-2">
