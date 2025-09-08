@@ -40,8 +40,8 @@ const Setup = () => {
   };
 
   return (
-    <div className="min-w-9/10">
-      <div className="bg-white rounded-4xl shadow-lg p-6 text-center">
+    <div className="px-5 min-h-screen min-w-full sm:min-w-xs md:min-w-2xl lg:min-w-4xl py-2 flex items-center">
+      <div className="bg-white w-full rounded-4xl shadow-lg py-4 px-10 text-center">
         <h1 className="text-4xl font-bold mb-1">Setup Players</h1>
         <p className="text-gray-500 mb-6">
           Add players and configure game settings

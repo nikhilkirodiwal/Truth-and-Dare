@@ -27,7 +27,7 @@ const Result = () => {
   results.sort((a, b) => b.score - a.score);
   const winner = results[0];
   return (
-    <div className="px-5 py-3 min-w-full sm:min-w-xs md:min-w-2xl lg:min-w-4xl flex flex-col items-center justify-center">
+    <div className="px-5 min-h-screen min-w-full sm:min-w-xs md:min-w-2xl lg:min-w-4xl flex flex-col items-center justify-center">
       <div className="bg-white rounded-3xl shadow-xl w-full max-w-3xl text-center px-8 py-4">
         <div className="flex flex-col items-center mb-2 sm:mb-6">
           <div className="bg-yellow-400 w-15 h-15 rounded-full hidden sm:flex items-center justify-center shadow-lg">
