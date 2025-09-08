@@ -6,8 +6,8 @@ const Game = () => {
   const { state } = useLocation();
   const navigate = useNavigate();
 
-  const truthApiUrl = process.env.REACT_APP_API_TRUTH_URL;
-  const dareApiUrl = process.env.REACT_APP_API_DARE_URL;
+  const truthApiUrl = import.meta.env.VITE_API_TRUTH_URL;
+  const dareApiUrl = import.meta.env.VITE_API_DARE_URL;
 
   useEffect(() => {
     if (!state || !state.players || !state.rounds) {
