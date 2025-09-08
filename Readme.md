@@ -46,8 +46,8 @@ A fun and interactive **Truth and Dare** game app built with React. Play with fr
    cd truth-and-dare-app
 3. Use API
    ```
-   REACT_APP_API_TRUTH_URL=https://api.truthordarebot.xyz/v1/truth
-   REACT_APP_API_DARE_URL=https://api.truthordarebot.xyz/v1/dare
+- `REACT_APP_API_TRUTH_URL` — URL for the Truth API
+- `REACT_APP_API_DARE_URL` — URL for the Dare API
 4. Install dependencies
    ```bash
    npm install
