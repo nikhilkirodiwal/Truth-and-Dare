@@ -20,7 +20,7 @@ A fun and interactive **Truth and Dare** game app built with React. Play with fr
 - **React**    
 - **Tailwind Css**
 - **API:** [Truth and Dare API](https://docs.truthordarebot.xyz/api-docs)
-- **Deployment:** [Netlify](https://movie-hub-webapp.netlify.app/)
+- **Deployment:** [Netlify](https://truth-and-dare-web-app.netlify.app)
 
 ---
 
@@ -46,8 +46,8 @@ A fun and interactive **Truth and Dare** game app built with React. Play with fr
    cd truth-and-dare-app
 3. Use API
    ```
-   - REACT_APP_API_TRUTH_URL= URL for the Truth API
-   - REACT_APP_API_DARE_URL= URL for the Dare API
+   - VITE_API_TRUTH_URL= URL for the Truth API
+   - VITE_API_DARE_URL= URL for the Dare API
 
 4. Install dependencies
    ```bash
